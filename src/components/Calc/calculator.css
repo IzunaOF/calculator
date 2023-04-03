@@ -1,0 +1,76 @@
+option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  font: 800 32px var(--f-Rajdhani);
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+option:hover {
+  background-image: radial-gradient(circle at 50%, #b0b0b0, #5a5c65);
+  box-shadow: 0 0 5px 1px black;
+}
+option:focus {
+  box-shadow: 0 0 0px 0px black;
+}
+
+.group {
+  text-align: center;
+  place-items: center;
+  display: grid;
+  padding: 1rem 0;
+  gap: 10px 8px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 270px;
+}
+.calcBox {
+  padding: 8rem 0;
+  width: 55%;
+  height: max-content;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.calculadora {
+  width: min-content;
+}
+.screen {
+  text-align: end;
+  font-size: 40px;
+  width: 100%;
+  padding: 0 5px;
+  background-color: transparent;
+  border-bottom: 1px dashed rgb(0, 0, 0);
+  overflow-x: scroll;
+}
+
+.history {
+  position: relative;
+  width: max-content;
+  min-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--c-black);
+}
+
+.history-list,
+.history-list-Result {
+  position: absolute;
+  width: max-content;
+  max-width: 220px;
+  display: flex;
+  bottom: 0;
+  flex-direction: column-reverse;
+}
+.history-list-Result{
+  right: 0;
+  text-align: end;
+}
+.history-btn {
+  width: 100%;
+}
+

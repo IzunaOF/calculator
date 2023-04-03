@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Inter:wght@400;600;700&family=Rajdhani:wght@500&family=Shadows+Into+Light&display=swap');
+:root {
+    --f-Fasthand: "Fasthand", cursive;
+  --f-ShadowIntoLight: "Shadows Into Light", cursive;
+  --f-Rajdhani: "Rajdhani", cursive;
+  --BGC: rgb(20, 20, 25);
+  --c-black: rgb(20, 28, 35);
+  --c-remove: rgb(221, 23, 23);
+  --c-equals: rgb(123, 150, 185);
+  --c-NaNs: rgb(253, 255, 220);
+  --c-isNumbers: rgb(255, 255, 255);
+}
